@@ -17,6 +17,11 @@ The main contents are two types: bit substitution and quantization. In bit subst
 <img src="images/bs.png" alt="" title="", width="400">
 </div>
 
+Note:
+- The input cover data is assumed to be **2D**.
+- The cover data is **complex numbers**.
+- The payload is embedded on **the phase** of the cover data.
+
 <br>
 
 ### Embed
@@ -84,8 +89,6 @@ Standard return:
 <div align="center">
 <img src="images/qz.png" alt="" title="", width="800">
 </div>
-
-<br>
 
 ### Embed
 ```
